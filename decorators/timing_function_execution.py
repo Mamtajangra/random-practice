@@ -6,9 +6,6 @@ def decorator(func):
     return wrapper    
 
 
-
-
-
 @decorator
 def greet():
     print("hello mamu")
